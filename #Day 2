@@ -1,0 +1,18 @@
+# >>-------------------30daysCodingChallenge---------------------------------------<<
+# >>---------------------Day 2-----------------------------------------------------<<
+# >>---------------------height weight conversion---------------------------------<<
+
+#readed input
+height_feet=float(input("Enter height in feet:"))
+height_inch=float(input("Enter height in feet:"))
+weight_kg=float(input("Enter weight in kg:"))
+
+#calculate the result
+res1=height_feet*12
+res2=height_inch+res1
+res3=res2*2.54
+res=weight_kg*2.2
+
+#display the output
+print("Height in cm: {:0.1f}".format(res3))
+print("Weight in pound: {:0.1f}".format(res))
