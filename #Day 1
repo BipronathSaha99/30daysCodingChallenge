@@ -1,0 +1,17 @@
+# >>----------------------30daysCodingChallenge----------------------------------<<
+# >>----------------------Day 1--------------------------------------------------<<
+# >>---------------------Claculate Resturant Bill--------------------------------<<
+
+#readed input
+user1=float(input("Enter the price for user 1:"))
+user2=float(input("Enter the price for user 2:"))
+user3=float(input("Enter the price for user 3:"))
+tax=float(input("Enter tax in %:"))
+
+#calculate the result
+product_price=(user1+user2+user3)
+tax_amount=(tax/100)*product_price
+final=tax_amount+product_price
+
+#display output
+print("Final: {:0.1f}".format(final))
