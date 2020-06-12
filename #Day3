@@ -1,0 +1,11 @@
+#Day 3
+#input
+length = int(input("Enter the tray's length:"))
+width = int(input("Enter the tray's width:"))
+cube_size = int(input("Enter the size of cubes:"))
+#logic
+area_tray = length * width
+area_cube = cube_size**2
+res = int(area_tray / area_cube)
+#output
+print("Number of cubes: {}".format(res))
