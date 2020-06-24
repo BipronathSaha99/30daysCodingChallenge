@@ -1,0 +1,11 @@
+# >>------------------Day4------------------------<<
+# >>-------------------count the cheese cube2-------------------<<
+
+#input
+tray_length=int(input("Enter the tray's length:"))
+tray_width=int(input("Enter the tray's width:"))
+size_cube=int(input("Enter the size of cubes:"))
+#logic
+res=int(tray_length/size_cube)*int(tray_width/size_cube)
+# output
+print("Number of cubes:",res)
