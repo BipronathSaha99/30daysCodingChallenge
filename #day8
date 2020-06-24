@@ -1,0 +1,13 @@
+# >>----------Day8--------------------<<
+# >>----------Insert middle of the string------------<<
+
+# input 
+str_1=input("First String:")
+str_2=input("String:")
+
+# logic 
+res_1=len(str_1)
+res_2=str_1[:res_1//2]+str_2+str_1[res_1//2:]
+
+#output
+print(res_2)
