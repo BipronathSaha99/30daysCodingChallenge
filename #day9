@@ -1,0 +1,13 @@
+#  >>----------day 9-----------------------<<
+
+#input
+a=int(input("Enter number 1:"))
+b=int(input("Enter number 2:"))
+
+#logic
+res=a**b
+res_1=len(str(res))
+
+# output
+
+print("Digit count:",res_1)
