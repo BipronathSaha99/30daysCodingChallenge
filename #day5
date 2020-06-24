@@ -1,0 +1,13 @@
+# >>------------------------Day 5---------------------------------------<<
+# >>-----------------------second to time-------------------------------<<
+# input 
+Seconds=int(input("Enter the time in second:"))
+#  logic 
+Days=Seconds//86400
+Seconds%=86400
+Hours=Seconds//3600
+Seconds%=3600
+Minutes=Seconds//60
+Seconds%=60
+# output 
+print("%i Days %i Hours %i Minuets %i Seconds"%(Days,Hours,Minutes,Seconds))
