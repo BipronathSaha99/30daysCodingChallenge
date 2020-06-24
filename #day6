@@ -1,0 +1,11 @@
+# >>-----------------day 6----------------------<<
+# >>----------------Exchange the string-------------------<<
+#input
+str_1=input("String1:")
+str_2=input("String2:")
+#logic
+res_1=str_2[-2:]+str_1[2:-2]+str_2[0:2]
+res_2=str_1[-2:]+str_2[2:-2]+str_1[0:2]
+#output
+print("String1:",res_1)
+print("String2:",res_2)
