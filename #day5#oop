@@ -1,0 +1,18 @@
+# >>------------------------Day 5---------------------------------------<<
+# >>-----------------------second to time-------------------------------<<
+# >>----------------oop--------------------<<
+class Time():
+    def __init__(self,Seconds):
+        self.Seconds=Seconds
+    def time(self):
+        self.Days=self.Seconds//86400
+        self.Seconds%=86400
+        self.Hours=self.Seconds//3600
+        self.Seconds%=3600
+        self.Minutes=self.Seconds//60
+        self.Seconds%=60
+        # print(self.Days,self.Hours,self.Minutes,self.Seconds)
+        print("%i Days %i Hours %i Minuets %i Seconds"%(self.Days,self.Hours,self.Minutes,self.Seconds))
+Seconds=int(input("Enter the time in second:"))
+obj=Time(Seconds)
+obj.time()
