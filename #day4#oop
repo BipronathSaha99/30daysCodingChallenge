@@ -1,0 +1,17 @@
+# >>------------------Day4------------------------<<
+# >>-------------------count the cheese cube2-------------------<<
+# >>------------oop--------------------------<<
+class Cube:
+    def __init__(self,tray_length,tray_width,size_cube):
+        self.tray_length=tray_length
+        self.tray_width=tray_width
+        self.size_cube=size_cube
+    def num_cube(self):
+        self.res=int(self.tray_length/self.size_cube)*int(self.tray_width/self.size_cube)
+        return("Number of cubes: {}".format(self.res))
+
+tray_length=int(input("Enter the tray's length:"))
+tray_width=int(input("Enter the tray's width:"))
+size_cube=int(input("Enter the size of cubes:"))
+obj=Cube(tray_length,tray_width,size_cube)
+print(obj.num_cube())
