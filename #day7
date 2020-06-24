@@ -1,0 +1,16 @@
+# >>-------------------day7---------------------<<
+# >>---------------Html tag----------------------<<
+
+#input
+tag=input("Tag name:")
+str_1=input("String1:")
+str_2=input("String2:")
+str_3=input("String3:")
+
+#logic
+res_1='<'+tag+'>'+str_1+'</'+tag+'>'
+res_2='<'+tag+'>'+str_2+'</'+tag+'>'
+res_3='<'+tag+'>'+str_3+'</'+tag+'>'
+
+#output
+print(f"{res_1}\n{res_2}\n{res_3}")
